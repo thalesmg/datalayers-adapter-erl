@@ -26,6 +26,7 @@ jobs:
       fail-fast: false
       matrix:
         otp:
+          - "27.3.4.2-6"
           - "28.2-2"
         rebar3:
           - "3.24.0"
